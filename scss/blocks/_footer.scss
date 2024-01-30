@@ -25,7 +25,7 @@
     margin-right: auto;
   }
 
-  .download-link {
+  &__download-link {
     margin-right: 18px;
     border-radius: 4px;
     background-color: $light-grey;
@@ -35,6 +35,9 @@
     font-weight: 700;
     display: flex;
     gap: 12px;
+    width: 182px;
+    height: 56px;
+    flex-shrink: 0;
 
     &__small {
       font-size: 10px;
@@ -57,8 +60,92 @@
     background-color: #333a44;
   }
 
-  .footer-address {
+  &__logo {
+    margin-right: 58px;
+  }
+
+  &__list {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__link {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: $dim-grey;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+
+  &__address {
     display: flex;
     gap: 24px;
+    margin-left: auto;
+  }
+
+  @media only screen and (max-width: 768px) {
+    &__container {
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+
+    &__title {
+      max-width: 768px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+  }
+
+  @media only screen and (max-width: 570px) {
+    &__list {
+      gap: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 510px) {
+    &__container-column {
+      flex-flow: column;
+      align-items: center;
+      padding: 64px 0 88px;
+    }
+
+    &__logo {
+      margin-bottom: 42px;
+    }
+
+    &__list {
+      flex-flow: column;
+      gap: 16px;
+      margin-bottom: 85px;
+    }
+
+    &__address {
+      margin: 0 auto;
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    &__download-link {
+      padding: 8px;
+      gap: 4px;
+      width: auto;
+
+      &__big {
+        font-size: 16px;
+      }
+
+      &__small {
+        font-size: 8px;
+      }
+    }
   }
 }
