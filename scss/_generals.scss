@@ -43,3 +43,73 @@ body {
     color: $yellow;
   }
 }
+
+
+// intro
+.about {
+  background-image: url(../images/Bitmap.about.png);
+  height: 200px;
+  opacity: 0.75;
+}
+.about__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__title {
+  padding-top: 72px;
+  text-align: left;
+  color: #FFF;
+  font-size: 56px;
+  line-height: 56px; /* 100% */
+  letter-spacing: -2.5px;
+}
+.about__cycle {
+  position: relative;
+  left: 120px;
+  top: 35px;
+}
+.intro1 {
+  display: flex;
+  align-items: center;
+}
+.intro {
+  margin-right: 220px;
+  max-width: 440px;
+  margin-top: 120px;
+  &__title {
+    margin-bottom: 20px;
+    color: #495567;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.143px;
+  }
+  &__text {
+    color: #939CAA;
+    font-family: "Lexend Deca";
+    font-size: 15px;
+    line-height: 25px; 
+  }
+}
+.intro__image {
+  margin-top: 120px;
+  border-radius: 50%;
+}
+.intro__x {
+position: relative;
+bottom: 245px;
+left: 570px;
+}
+.intro__arrow {
+  position: relative;
+  bottom: 180px;
+  left: 490px;
+  flex-shrink: 0;
+  stroke-width: 15px;
+  stroke: #FCB72B;
+}
+.right__intro {
+  position: relative;
+  bottom: 600px;
+  left: 1150px;
+}
