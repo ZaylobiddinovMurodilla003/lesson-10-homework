@@ -1,0 +1,64 @@
+.footer {
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+  &__top {
+    background-color: $dark-navy;
+    padding: 102px 0;
+
+    background-image: url("../../images/footer-ellipse.png"),
+      url("../../images/footer-ellipse.png"),
+      url(../../images/footer-ellipse-right.png);
+    background-repeat: no-repeat;
+    background-size: 370px 173px, 347px 173px, 173px 173px;
+    background-position: calc(50% - 90px) bottom, calc(50% + 340px) bottom,
+      calc(50% + 680px) bottom;
+  }
+
+  &__title {
+    color: $white;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -2.143px;
+    width: 415px;
+    margin-right: auto;
+  }
+
+  .download-link {
+    margin-right: 18px;
+    border-radius: 4px;
+    background-color: $light-grey;
+    padding: 8px 15px;
+    color: $dark-navy;
+    letter-spacing: -0.446px;
+    font-weight: 700;
+    display: flex;
+    gap: 12px;
+
+    &__small {
+      font-size: 10px;
+    }
+
+    &__big {
+      font-size: 20px;
+      line-height: 24px;
+      letter-spacing: -0.893px;
+    }
+
+    & div {
+      display: flex;
+      flex-flow: column;
+    }
+  }
+
+  &__bottom {
+    padding: 35px 0;
+    background-color: #333a44;
+  }
+
+  .footer-address {
+    display: flex;
+    gap: 24px;
+  }
+}

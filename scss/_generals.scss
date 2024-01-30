@@ -9,12 +9,6 @@ html {
   margin: 0;
 }
 
-body {
-  color: $white;
-  font-family: "space mono", "Arail", sans-serif;
-  line-height: 1.5;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -23,6 +17,12 @@ img {
 
 a {
   text-decoration: none;
+}
+
+body {
+  color: $white;
+  font-family: "space mono", "Arail", sans-serif;
+  line-height: 1.5;
 }
 
 .yellow-link {
