@@ -1,0 +1,36 @@
+.fixed {
+  display: none;
+  border-radius: 10px;
+  padding: 20px 30px;
+
+  &__list {
+    color: black;
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &__link {
+    color: $white;
+
+    &:hover {
+      color: $yellow;
+    }
+  }
+
+  &__checkbox:checked + .fixed {
+    position: fixed;
+    display: block;
+    background-color: $dark-navy;
+    opacity: 0.8;
+    right: 0;
+    left: 0px;
+    top: 60px;
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

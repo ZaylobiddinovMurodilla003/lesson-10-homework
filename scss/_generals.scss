@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: $white;
+  font-family: "space mono", "Arail", sans-serif;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.yellow-link {
+  background-color: $yellow;
+  color: $white;
+  display: inline-block;
+  padding: 11px 36px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  border: 3px solid transparent;
+
+  &:hover {
+    background-color: $white;
+    border: 3px solid $yellow;
+    color: $yellow;
+  }
+}

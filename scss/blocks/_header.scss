@@ -1,0 +1,50 @@
+.header {
+  padding: 22px 0 21px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger-icon {
+    display: none;
+  }
+
+  &__logo {
+    margin-right: 58px;
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+
+    &:hover {
+      opacity: 80%;
+    }
+  }
+
+  @media only screen and (max-width: 670px) {
+    &__logo {
+      margin-right: 30px;
+    }
+    &__link {
+      padding: 14px;
+    }
+  }
+
+  @media only screen and (max-width: 535px) {
+    &__container {
+      justify-content: center;
+    }
+
+    .hamburger-icon {
+      display: block;
+      margin-right: 20px;
+    }
+
+    &__logo {
+      margin: 0 auto;
+    }
+
+    &__link {
+      display: none;
+    }
+  }
+}
