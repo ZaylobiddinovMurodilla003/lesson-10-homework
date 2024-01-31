@@ -1,0 +1,235 @@
+/*------main_section_intro-------*/
+
+.ab-intro {
+  background-image: url(../images/Rectangle.png), url(../images/Bitmap.png);
+  width: 100%;
+  padding: 72px 0;
+  flex-shrink: 0;
+  opacity: 1;
+}
+
+.intro-tittle {
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  margin-top: 15px;
+}
+
+.intero_three {
+  width: 234px;
+  margin-left: 1080px;
+  position: absolute;
+  margin-top: -57px;
+}
+
+/*------main_section_message-------*/
+
+.misson-tittle {
+  width: 445px;
+  color: #495567;
+  font-family: "Space Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+  margin-top: 150px;
+}
+
+.misson-lorem {
+  width: 445px;
+  color: #939caa;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  margin-top: 24px;
+}
+
+.yellow-btn {
+  width: 180px;
+  height: 53px;
+  background: #fcb72b;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Space Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: center;
+  border: 0;
+  margin-top: 40px;
+}
+
+.mission-img {
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 688px;
+  margin-top: -374px;
+}
+
+.circle {
+  margin-left: 1213px;
+  margin-top: -374px;
+}
+
+.mission-arrow {
+  width: 734.378px;
+  flex-shrink: 0;
+  height: 99.369px;
+}
+
+.misson-spear {
+  margin-top: -49px;
+  margin-left: -15px;
+}
+
+.arrow {
+  margin-left: 579px;
+  margin-top: -128px;
+  position: absolute;
+}
+
+/*--------section_content-----------*/
+
+.content-tittle {
+  width: 540px;
+  color: #495567;
+  font-family: "Space Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.143px;
+  text-align: center;
+  margin-top: 160px;
+  margin-left: 385px;
+}
+
+.img-content {
+  border-radius: 50%;
+  margin-top: 85px;
+}
+
+.yeloow-oval {
+  margin-top: -55px;
+  margin-left: 70px;
+}
+
+.yellow-lorem {
+  color: #495567;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+  margin-top: -60px;
+  margin-left: 102px;
+}
+
+.name-img {
+  width: 350px;
+  color: #495567;
+  font-family: "Space Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+  margin-left: 40px;
+  margin-top: 55px;
+}
+
+.img-lorem {
+  width: 275px;
+  color: #939caa;
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+.three-content {
+  display: flex;
+  margin-left: 140px;
+  margin-top: 15px;
+}
+
+/*--------section_choose----------*/
+
+.choose {
+  margin-top: 120px;
+}
+
+.profession {
+  width: 1110px;
+  flex-shrink: 0;
+  background: #f2f5f9;
+  height: 128px;
+  margin-top: 24px;
+  margin-left: 105px;
+}
+
+.name-prof {
+  position: absolute;
+  color: #495567;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.071px;
+  font-family: "Space Mono";
+  margin-top: 40px;
+  margin-left: 60px;
+}
+
+.country-prof {
+  position: absolute;
+  width: 250px;
+  color: #495567;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  font-family: "Lexend Deca";
+  font-weight: bold;
+  margin-top: 70px;
+  margin-left: 60px;
+}
+
+.btn-prof {
+  position: absolute;
+  width: 180px;
+  flex-shrink: 0;
+  background: #fcb72b;
+  color: #fff;
+  text-align: center;
+  font-family: "Space Mono";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+  height: 53px;
+  border: 0;
+  margin-top: 43px;
+  margin-left: 865px;
+}
+
+.profession-end {
+  width: 1110px;
+  flex-shrink: 0;
+  background: #f2f5f9;
+  height: 128px;
+  margin-top: 24px;
+  margin-left: 105px;
+  margin-bottom: 160px;
+}
