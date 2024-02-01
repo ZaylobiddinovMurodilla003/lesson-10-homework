@@ -1,0 +1,108 @@
+.about-app {
+  position: relative;
+  margin-bottom: 200px;
+
+  &__list {
+    display: flex;
+    color: $dim-grey;
+    gap: 30px;
+  }
+
+  &__item {
+    display: flex;
+    flex-flow: column;
+
+    &__title {
+      font-size: 24px;
+      margin-bottom: 27px;
+      color: $dark-navy;
+      letter-spacing: -1.07px;
+      line-height: 28px;
+      order: 2;
+    }
+
+    &__info {
+      font-size: 15px;
+      line-height: 25px;
+      order: 3;
+    }
+
+    &__img {
+      order: -1;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__grey-line {
+    position: absolute;
+    top: 45px;
+    z-index: -1;
+    left: 0;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    &__item {
+      margin: 0 auto;
+    }
+
+    &__grey-line {
+      left: -200px;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding-top: 122px;
+
+    &__list {
+      display: flex;
+      flex-flow: column;
+    }
+
+    &__item {
+      display: flex;
+      flex-flow: row;
+
+      &__title {
+        width: 400px;
+      }
+
+      &__info {
+        width: 400px;
+      }
+
+      &__img {
+        display: inline-block;
+        order: -1;
+        margin-right: 10vw;
+        top: 0;
+      }
+    }
+    &__grey-line {
+      display: none;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    &__list {
+      text-align: center;
+    }
+
+    &__item {
+      flex-flow: column;
+      align-items: center;
+
+      &__title {
+        margin-bottom: 24px;
+      }
+
+      &__info {
+        margin-bottom: 48px;
+      }
+
+      &__img {
+        margin: 0;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

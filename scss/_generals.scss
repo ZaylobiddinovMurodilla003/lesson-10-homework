@@ -19,6 +19,11 @@ a {
   text-decoration: none;
 }
 
+ul,
+ol {
+  list-style-type: none;
+}
+
 body {
   color: $white;
   font-family: "space mono", "Arail", sans-serif;
