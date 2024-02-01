@@ -1,6 +1,6 @@
 .hero {
-  background-image: url(../../images/Rectangle.png),
-    url(../../images/home-hero-bgi.png);
+  background-image: url(../images/Rectangle.png),
+    url(../images/home-hero-bgi.png);
   background-repeat: no-repeat;
   background-size: 100% 100%, 100% 100%;
   background-position: center, center;
@@ -29,7 +29,7 @@
     &::before {
       content: "";
       display: inline-block;
-      background-image: url(../../images/hero-bgi-left.svg);
+      background-image: url(../images/hero-bgi-left.svg);
       background-repeat: no-repeat;
       position: absolute;
       height: 12px;
@@ -41,7 +41,7 @@
     &::after {
       content: "";
       display: inline-block;
-      background-image: url(../../images/home-hero-arrow.png);
+      background-image: url(../images/home-hero-arrow.png);
       background-repeat: no-repeat;
       background-size: contain;
       width: 450px;
